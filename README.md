@@ -53,10 +53,9 @@ The output log, the recognized datasets are written in the **examples/outputs** 
 
 ## Start a Postgres Instance
 
-To set up Stork with a Postgres backend, run the following script:
+To set up Stork with a Postgres backend, we start a Postgres image with the following script:
 
 ```
-# Starts a Postgres Docker Image
 bash scripts/run.sh
 ```
 To run the Stork workflow:
